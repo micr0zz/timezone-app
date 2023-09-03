@@ -1,0 +1,5 @@
+deployment:
+  image: "${repo_name}"
+service:
+  externalPort: 80
+replicaCount: 2

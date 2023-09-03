@@ -1,0 +1,5 @@
+deployment:
+  image: "timezoneapp:latest"
+service:
+  externalPort: 80
+replicaCount: 2
